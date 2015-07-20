@@ -31,7 +31,7 @@ namespace Lesson11
                 var userIdentity = userManager.CreateIdentity(user, DefaultAuthenticationTypes.ApplicationCookie);
 
                 authenticationManager.SignIn(new AuthenticationProperties() { IsPersistent = false }, userIdentity);
-                Response.Redirect("~/admin/main.aspx");
+                Response.Redirect("/admin/main.aspx");
             }
             else
             {
