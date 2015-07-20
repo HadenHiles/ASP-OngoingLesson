@@ -136,6 +136,8 @@
       <DependentUpon>Contoso.edmx</DependentUpon>
       <LastGenOutput>Contoso.cs</LastGenOutput>
     </Content>
+    <None Include="Properties\PublishProfiles\hadenhiles-lab4 %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\hadenhiles-lab4.pubxml" />
     <None Include="Properties\PublishProfiles\onGoingLesson.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
